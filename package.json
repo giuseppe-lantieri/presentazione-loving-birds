@@ -1,0 +1,21 @@
+{
+	"name": "slidev-new",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"start": "slidev --open --remote",
+		"build": "slidev build",
+		"dev": "slidev --open --remote",
+		"export": "slidev export"
+	},
+	"dependencies": {
+		"@slidev/cli": "^0.48.2",
+		"@slidev/theme-default": "latest",
+		"@slidev/theme-seriph": "latest",
+		"slidev-theme-the-unnamed": "^0.0.16",
+		"vue": "^3.4.21"
+	},
+	"devDependencies": {
+		"playwright-chromium": "^1.43.1"
+	}
+}
