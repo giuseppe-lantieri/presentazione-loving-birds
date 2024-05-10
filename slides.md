@@ -18,7 +18,7 @@ layout: about-me
 
 helloMsg: Ciao tuttə, mi presento!
 name: Ganzio Bello
-imageSrc: https://img.freepik.com/free-vector/realistic-neon-lights-background_23-2148907367.jpg
+imageSrc: ./image/locandina1.jpg
 job: Programmatore da 4 anni
 line1: Studente Universitario
 line2: 4 esami alla laurea triennale in Ingegneria Informatica
