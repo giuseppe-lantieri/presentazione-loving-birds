@@ -16,14 +16,31 @@ transition: slide-left
 ---
 layout: about-me
 
-helloMsg: Ciao tuttə, mi presento!
+helloMsg: Ciao a tuttə, mi presento!
 name: Ganzio Bello
-imageSrc: ./image/locandina1.jpg
+imageSrc: ./image/banner.jpg
 job: Programmatore da 4 anni
 line1: Studente Universitario
-line2: 4 esami alla laurea triennale in Ingegneria Informatica
+line2: Boh facciamo -3 a una laurea se il trasferimento va bene
 social1: instagram => @ganzio.bello
 ---
+
+---
+
+# Grazie per avermi rinvitato! 
+## Sono felicissimo di essere di nuovo qui! Altri 5 mandati si !
+
+
+<div style="position: absolute; right:30px; bottom:50px">
+	<img src="/image/chart.jpg" style="max-width: 450px; max-height: 300px; " />
+</div>
+
+<div style="position: absolute; left:190px; bottom:30px">
+	<img src="/image/chat.jpg" style="max-width: 450px; max-height: 300px; " />
+</div>
+
+
+Vi riassumo l'esperienza con un grafico e un piccolo riassunto di quello che hanno detto i miei amici 
 
 ---
 
@@ -33,7 +50,9 @@ social1: instagram => @ganzio.bello
 
 Questo non è e non vuole essere un *corso esaustivo*. 
 
-L'obiettivo è fornire o quanto meno incuriosire qualcuno a uno strumento particolare a cui non sempre viene dato il giusto peso. Io non sono il migliore oratore immaginabile, né il più competente, ma sono qui oggi, quindi qualcosa fa.
+L'obiettivo è divertire per un'oretta incuriosendo il più possibile e darvi l'incentivo a provare il framework. Se volete buttarvi nella creazione di videogiochi spetta a voi, non esiste il corso giusto che potrà sostituire volontà ed iniziativa. 
+
+Io qui parlo di basi e faccio battute brutte.
 
 
 ## Detto questo spero che possa piacervi lo stesso e che ci possiamo divertire insieme.
@@ -49,22 +68,26 @@ L'obiettivo è fornire o quanto meno incuriosire qualcuno a uno strumento partic
 # Cos'è LOVE 2D?
 ## Probabilmente quello che non ti aspetti !
 
-LOVE 2D è un framework che permette di creare videogiochi 2d facilmente grazie a del codice scritto in LUA.
+LOVE 2D è un framework che permette di creare videogiochi 2D grazie a del codice scritto in LUA.
 
-È un framework abbastanza apprezzato dalla community, tanto da essere perfino consigliato ai neofiti che vogliono iniziare
+È un abbastanza apprezzato dalla community, 
+considerate che è stato usato per creare il recente gioco Balatro.
+
+Può perfino essere usato da neofiti che vogliono iniziare a comprendere le basi.
 
 <br/>
-<br/>
-<br/>
 
+**Punti Forti**:
 - 📝 **Text-based** - Tutto dal testo nessuna interfaccia
 - 💖 **OpenSource** - Ottima etica e una community vastissima
-- 📤 **Portable** - Crea giochi per: computer, android e anche console (anche se molto difficile)
+- 📤 **Multi-Piattaforma** - Dal web al computer arrivando perfino alle console. 
+
+_Nessuna limitazione se non data dalla bravura_
 
 ---
 
 # Come mai scegliere LOVE 2D?
-## Per divertimento
+## Perché è divertente
 
 <br/>
 Per sviluppare un videogioco ci sono tantissime alternative tra cui scegliere. 
@@ -78,7 +101,7 @@ Sicuramente se vi siete interessati all'argomento conoscerete i 3 grandi nomi in
 - Godot
 
 <br/>
-Ma oltre a loro ci sono Engine e framework molto usati come per esempio GameMaker o PyGame o RPG Maker. Nessuno di questi strumenti è definitivo o indispensabile per fare un buon gioco, ognuno di essi eccelle in qualcosa e pecca in altro.
+Ma oltre a loro ci sono Engine e framework molto usati come GameMaker o PyGame o RPG Maker. Nessuno di questi strumenti è definitivo o indispensabile per fare un buon gioco, ognuno di essi eccelle in qualcosa e pecca in altro.
 
 ---
 
@@ -87,40 +110,40 @@ Ma oltre a loro ci sono Engine e framework molto usati come per esempio GameMake
 </div>
 
 # Come mi diverto con LOVE 2D
-## Reinvento la ruota
+## Mi piace reinventare la ruota
 
 
 <br/>
 Come accennato prima LOVE 2D è un framework, un banco di lavoro con degli strumenti.
 
-Non c'è molto di già fatto, preferisce dare libertà al costruttore più che dargli della pappa pronta.
+Offre tanta libertà al costruttore e non impone molti limiti nella creazione.
 
-Questo è sia un grande vantaggio, sia un <b> estremo svantaggio. </b>
+Questo è sia un grande vantaggio, sia un **estremo svantaggio.**
 
 <br/>
-Infatti non sono davvero tutti capaci di gestire, fin dall'inizio, tutte le complessità che un gioco può creare, ma per progetti abbastanza semplici la libertà lasciata allo sviluppatore permette di imparare molto più facilmente e agilmente. 
+Infatti non tutti vogliono gestire, fin dall'inizio, tutte le complessità che un gioco può creare, ma per progetti abbastanza semplici la libertà lasciata allo sviluppatore gli permette una maggiore crescita. 
 <br/>
 <br/>
 <br/>
-Perciò molto spesso viene consigliato ai neofiti come primo approccio o alle persone che si vogliono divertire a reinventare la ruota.
+Io adoro questo lato e trovo molto divertente cercare di riprodurre cose viste in altri framework o inventare roba inutile. 
 
 ---
 
-<div style="position: absolute; right:30px; bottom:30px;">
+<div style="position: absolute; right:30px; top:30px;">
 	<img src="/image/2.jpeg" style="max-width: 150px; max-height: 200px; " />
 </div>
 
 # Perchè LUA e non Python ?
-## Per l'installazione...
+## Installa python su
+
+<br/>
 
 È proprio vero Python è un liguaggio unico nel suo genere che piace alla maggioranza delle persone, io non incluso, ma tolto che impararne uno non escluda l'altro, Lua ha dei validi motivi per non essere da meno.
 
 Innanzitutto Lua è:
 
 - Già facilmente eseguibile da qualsiasi sistema operativo
-- Molto semplice da leggere e capire
-- Facile da apprendere
-- Non richiede l'utilizzo di altri strumenti se non voluti dall'utente
+- Molto semplice da leggere, capire e apprendere
 
 ---
 
@@ -141,9 +164,11 @@ Perciò, prima di iniziare con gli argomenti più complessi, un rapido ripasso d
 # I primi concetti 
 ## Variabili
 
-Cos'è una variabile? Chi ha finito le superiori dovrebbe conoscerle, ma per tutti fissiamo il significato di variabile come quella cosa che porta dentro di sè un valore che può variare nel tempo. 
-Dico che può perché non è detto che vari in senso assoluto, infatti per gli informatici le costanti sono solo un caso speciale delle variabili.
-Quindi tutto ciò che deve essere conosciuto o memorizzato deve essere contenuto in una variabile.
+Cos'è una variabile? Fissiamo il significato di variabile come quella cosa che porta dentro di sè un valore che può variare nel tempo. 
+
+Per gli informatici le costanti sono solo un caso speciale delle variabili.
+
+Quindi tutto ciò che deve essere memorizzato deve essere contenuto in una variabile.
 
 ```lua
 VariabileX = 10;
@@ -154,7 +179,6 @@ VariabileX = VariabileX + PIPPO;
 topolino == VariabileX -- True
 ```
 
-<!-- Questa è un brutto codicce che fa vedere alcune cose che si possono fare con le variabili. Mi spiace non mi è venuto nulla di meglio in testa -->
 Quello che si può osservare è che in Lua è molto facile dichiarare una variabile: basta scrivere il suo nome e assegnargli un valore.
 
 
@@ -172,6 +196,7 @@ end
 ```
 
 Questa è una funzione. In programazione ogni codice è composto da funzioni e da variabili. 
+
 Le funzioni rappresentano il nostro modo di esprimere le operazioni che vogliamo.
 
 Se non avete mai programmato è un concetto particolare da imparare ma con degli esempi sarà più facile, la funzione di somma appare così:
@@ -276,21 +301,34 @@ Tutto qui o per lo meno tutto qui quello necessario. Ora iniziamo a settare tutt
 
 ---
 
-<div style="position: absolute; right:30px; top:30px;">
-	<img src="/image/1.gif" style="max-width: 250px; max-height: 300px; " />
+<div style="position: absolute; right:100px; bottom:40px;">
+	<img src="/image/1.gif" style="max-width: 270px; max-height: 300px; " />
 </div>
 
 # Perciò tutto pronto per iniziare
-## IT's morbing time
+## Iniziamo a programmare
 
 L'esempio che vi porto oggi è come si può creare un clone di Flappy Bird. 
 
-Prima di iniziare a scrivere qualsiasi riga di codice, dobbiamo avere ben in mente il gioco che vogliamo realizzare, individuare i punti principali e le loro caratteristiche, così da poterlo schematizare più facilmente
+Prima di iniziare a scrivere qualsiasi riga di codice, dobbiamo avere ben in mente il gioco che vogliamo realizzare:
 
-Per capirci: 
+- Le meccaniche
+- La grafica
+- I suoni
+- I menù
+
+---
+
+# Per capire cosa intendo con meccaniche: 
+
+<div style="position: absolute; right:100px; bottom:30px;">
+	<img src="/image/2.gif" style="max-width: 200px; max-height: 250px; " />
+</div>
+
 In Flappy Bird abbiamo un personaggio, posizionato a sinistra dello schermo, spinto giù da una forza invisibile, che sale in alto ogni volta che premiamo un pulsante. 
 
-Ora abbiamo di fronte a noi vari problemi:
+Scomponiamo il problema in domande da singola soluzione:
+
 - Come facciamo a farlo apparire a schermo? 
 - Come facciamo a farlo interaggire con i nostri comandi?
 - Come facciamo i tubi? 
@@ -334,7 +372,7 @@ layout: section
 ---
 
 # Logica
-## Fare cose alle cose 
+## Far fare cose alle cose 
 
 Qui ci vengono in soccorso i concetti accennati prima: Varibili e Funzioni.
 
@@ -533,10 +571,19 @@ Quindi in parole povere ad ogni frame la y del nostro volatile diventerà sempre
 
 <!-- Allega immagini -->
 
+
+
+<div style="position: absolute; right:350px; z-index:10;">
+	<img src="/image/3.gif" style="max-width: 350px; max-height: 300px; " />
+</div>
+<br/>
+<br/>
+Quando sposti verso l'alto =>
+
 ---
 
 # Bello ma come funziona la Gravità?
-## A mele! Ovvio no?
+## Riportiamo a terra Carlo 
 
 ````md magic-move
 ```lua
@@ -724,4 +771,5 @@ layout: center
  
 - [Libro introduttivo](https://sheepolution.com/learn/book/0)
 - [Wiki ufficiale](https://love2d.org/wiki/Main_Page)
-- [Dev famoso per usare LOVE 2D](https://www.youtube.com/@Challacade)
+- [Mio amore 💘 Challacade ▶️](https://www.youtube.com/@Challacade)
+- [Lista di cose Awesome](https://github.com/love2d-community/awesome-love2d)
